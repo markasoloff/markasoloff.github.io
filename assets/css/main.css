@@ -128,7 +128,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 0.75em #dddddd;
+		border-left: solid 0.75em #ddddd0;
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
 	}
@@ -2156,7 +2156,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		/*background: #CCE8F4 url("../../images/pic1.jpg");*/
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -2876,6 +2876,11 @@ input, select, textarea {
 
 			#footer {
 				padding: 40px 0 20px 0;
+			}
+
+			.bannerQuote {
+				color: #252122;
+
 			}
 
 	}
